@@ -1,0 +1,7 @@
+.\flyway -user=msadmin -password=Pikdata44 -url=jdbc:mysql://localhost:3306/examples -locations=filesystem:sql migrate
+
+.\flyway -user=msadmin -password=Pikdata44 -url=jdbc:mysql://localhost:3306/examples -locations=filesystem:"C:\GitProjects\DBSample\run" migrate
+
+-- identify failed migrations
+.\flyway -user=msadmin -password=Pikdata44 -url=jdbc:mysql://localhost:3306/examples undo
+
