@@ -13,7 +13,7 @@
 {%- set surveyname  = get_data_filtered(pTable,pColumns,surveys_filter)[0][0] -%}
 {%- set countries = get_data_filtered(pTable,pColumns,countries_filter) -%}
 
-
+for CHG_3
 select
      *
     ,to_timestamp_ntz(sysdate()::timestamp) RUN_TIMESTAMP
