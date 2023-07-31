@@ -23,3 +23,5 @@ from {{ ref(stg_det_rep) }}
 UNION ALL
 
 select * from tabletest
+
+change for chg_1
